@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* Add your CSS styles here */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #5a9c04; /* Background color of the navbar */
+            text-align: center; 
+        }
+        
+        /* Style the list items */
+        nav ul li {
+            display: inline; /* Display items horizontally */
+        }
+        
+        /* Style the links */
+        nav ul li a {
+            display: inline-block;
+            padding: 10px 20px; /* Add some padding to the links */
+            text-decoration: none; /* Remove underlines from links */
+            color: #fff; /* Text color */
+        }
+        
+        /* Change link color on hover */
+        nav ul li a:hover {
+            background-color: #c00497; /* Background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our captivating world of imagery! Explore the beauty of technology, 
+                the serenity of nature, and the deliciousness of food through our carefully curated collection of images.
+                 Immerse yourself in the visual delights that await you, and let your imagination soar. 
+                 Start your journey now and discover the wonders that our images have to offer.
+                 Welcome to an experience that will leave you inspired and enchanted.</p>
+            <a href="https://scitechdaily.com/news/technology/" target="_blank" title="More about technology">
+                <img src="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?t=st=1709544007~exp=1709547607~hmac=3796e2c1dc40f59e19019e9ac39506a5be6888690617023353e859b6a212475f&w=900" alt="Technology" style="display: block; margin:0 auto; max-width:100%;">
+            </a>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <a href="https://education.nationalgeographic.org/resource/ocean/" target="_blank" title="Learn more about Oceans">
+                    <img src="https://img.freepik.com/free-photo/beautiful-scenery-rock-formations-by-sea-queens-bath-kauai-hawaii-sunset_181624-36857.jpg?w=826" alt="Nature 1">
+                </a>
+                <a href="https://www.nationalgeographic.com/animals/mammals/facts/african-elephants" target="_blank" title="Learn more about the African Elephant">
+                    <img src="https://img.freepik.com/free-photo/group-elephants-big-green-tree-wilderness_181624-16897.jpg?t=st=1709543485~exp=1709547085~hmac=05d2ca51609d914b572cab11b84e8e9b01b8598c814ba1767458a9fc0f3a2e27&w=826" alt="Nature 2">
+                </a>
+                <a href="https://education.nationalgeographic.org/resource/swamp/" target="_blank" title="Learn more about Swamps">
+                    <img src="https://img.freepik.com/free-photo/tree-with-orange-leaves-zugspitze-lake-eibsee_181624-13795.jpg?t=st=1709543528~exp=1709547128~hmac=f7bb663fb733976e22221972b6cc2ad46f16596b17f725a7d052b5a031a99847&w=740" alt="Nature 3">
+                </a>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?t=st=1709544757~exp=1709548357~hmac=14d8077653e1964affe21965c45e3e9e5d0e5e0138dcfeb3a0bb48f70d1f305b&w=826" target="_blank">Pilau with stewed beef meat</a></li>
+                <li><a href="https://img.freepik.com/free-photo/portion-african-chapati-bean-stew-garlic-lemons_181624-57135.jpg?t=st=1709544934~exp=1709548534~hmac=0d4314baf9d0c5e059469ef724bf5b6b0c53910880799e12d3f9c88b3337bb2d&w=900" target="_blank">A portion of African chapati bean stew garlic and lemons</a></li>
+                <li><a href="https://img.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_140725-36040.jpg?t=st=1709545017~exp=1709548617~hmac=9be1743d240e603ca3737ed178dca3e65a1e59f178c5c2e2aa90d85fa6eaea17&w=826" target="_blank">Top view vegetable soup with meat inside plate on a grey</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
